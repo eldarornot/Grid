@@ -1,6 +1,6 @@
 temp/
 *.bat
-
+prepros-6.config
 # IntellijIdea files
 .idea/
 */scss-comb/
