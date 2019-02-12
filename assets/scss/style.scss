@@ -1,14 +1,9 @@
-
-@import "../../libs/normalize-scss/sass/normalize/import-now";
-@import "skin";
-@import "variables";
-
+@import "normalize";
 @import "common";
 @import "header";
-
-@import "sections/section-skills";
-@import "sections/section-about";
-@import "sections/section-form";
-@import "sections/section-posts";
-
+@import "skills";
+@import "about";
+@import "form";
+@import "posts";
 @import "footer";
+@import "@media";

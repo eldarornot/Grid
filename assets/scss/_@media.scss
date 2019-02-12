@@ -69,9 +69,12 @@
   h2 {
     font-size: 2rem;
   }
+  .header-title {
+    margin: 0 0 43px;
+  }
   .header-buttons .btn {
     min-width: 200px;
-    height: 50%;
+    height: 50px;
     padding-top: 14px;
     padding-bottom: 14px;
     letter-spacing: 0.1em;
@@ -157,12 +160,12 @@
   .header-buttons .btn {
     min-width: 170px;
     height: 40px;
-    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     letter-spacing: 0.05em;
     font-size: 1rem;
   }
+  
   .header-menu {
     background-color: rgba(68, 89, 110, 0.25);
   }
@@ -173,7 +176,7 @@
     right: 20px;
     text-align: right;
     opacity: 0;
-    background-color: rgba(68, 89, 110, 0.5);
+    background-color: rgba(68, 89, 110, 0.9);
   }
   .header-navbar__hamburger {
     display: block;
@@ -240,10 +243,13 @@
     margin: 0;
   }
   .skills {
-    padding: 10px;
-    grid-gap: 10px;
+    padding: 20px;
+    grid-gap: 20px;
     grid-template-columns: 1fr;
   }
+  .skills .btn-set {
+    padding: 0;
+}
   .about .container {
     grid-gap: 20px;
     grid-template-columns: 1fr;
@@ -277,6 +283,7 @@
 @media (min-width: 577px) {
   .btn-set .btn-accent {
     min-width: 350px;
+    margin: 0;
   }
   .skills .btn-set {
     padding: 10px 0 30px;
